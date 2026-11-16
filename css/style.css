@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    color: #222;
+}
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
